@@ -15,13 +15,19 @@ This repository contains the implementation and documentation of a **simplified 
 ---
 
 ## 📂 Repository Contents
-- **`control_FSM.v`** – Verilog implementation of the control FSM.  
-- **`MAC_STM.v`** – Verilog implementation of the MAC unit.  
-- **`DLXcontrol_tb.v`** – a version of a testbench for the control FSM.  
-- **`top_level.bit`** – FPGA bitstream file for the full design.  
-- **`ACSL Handout 7 PostLab B2 B24.pdf`** – full written report (71 pages) including schematics, explanations, and design details.  
-- **`README.md`** – this documentation.
-
+- **`Programming assignment/`** - the final stage of the project to demonstrate its functionallity by performing multiplication between two integers
+  - `Programming assignment` - the requirements file given by the lab's stuff
+  - `ACSL Programming assignment report` - the submitted report, contains the solution(in assembly language), explanations and demonstrations of the execution 
+- **`src/`** – Verilog source files for the processor components:
+  - `control_FSM.v` – control unit FSM.
+  - `MAC_STM.v` – Multiply–Accumulate unit.
+- **`tb/`** – testbenches for simulation:
+  - `DLXcontrol_tb.v` – testbench for the control unit.
+- **`bitstream/`** – FPGA bitstreams (e.g., `top_level.bit`).
+- **`docs/`** – documentation and reports:
+  - Full project report (PDF).
+  - Poster and slides (if available).
+- **`README.md`** – this document.
 ---
 
 ## 🎯 Purpose

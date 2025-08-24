@@ -184,6 +184,4 @@ parameter addi =6'b001011;
 	
 	end
 
-
-
 endmodule

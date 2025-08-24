@@ -15,8 +15,8 @@ This repository contains the implementation and documentation of a **simplified 
 ---
 
 ## 📂 Repository Contents
-- **`Programming assignment/`** - the final stage of the project to demonstrate its functionallity by performing multiplication between two integers
-  - `Programming assignment` - the requirements file given by the lab's stuff
+- **`Programming assignment/`** - the final stage of the project to demonstrate its functionality by performing multiplication between two integers
+  - `Programming assignment` - the requirements file given by the lab's staff
   - `ACSL Programming assignment report` - the submitted report, contains the solution(in assembly language), explanations and demonstrations of the execution 
 - **`src/`** – Verilog source files for the processor components:
   - `control_FSM.v` – control unit FSM.
@@ -24,9 +24,7 @@ This repository contains the implementation and documentation of a **simplified 
 - **`tb/`** – testbenches for simulation:
   - `DLXcontrol_tb.v` – testbench for the control unit.
 - **`bitstream/`** – FPGA bitstreams (e.g., `top_level.bit`).
-- **`docs/`** – documentation and reports:
-  - Full project report (PDF).
-  - Poster and slides (if available).
+- **`docs/`** - Full project report (PDF).
 - **`README.md`** – this document.
 ---
 
@@ -34,6 +32,6 @@ This repository contains the implementation and documentation of a **simplified 
 This project demonstrates the **design and validation of a simplified DLX processor**, focusing on:
 - Control FSM design in Verilog.   
 - Simulation with testbenches.  
-- FPGA synthesis and deployment.  
+- FPGA synthesis and deployment.
 
-It forms the foundation for more advanced DLX-based designs, such as multicore and cache-coherent processors.
+It was developed as part of the **ACSL course** at Tel Aviv University
